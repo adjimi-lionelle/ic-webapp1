@@ -12,6 +12,5 @@ spec:
     storage: 20Gi
   accessModes:
     - ReadWriteMany
-  reclaimPolicy: Delete
   hostPath:
     path: "/data_k8s/lib-odoo"
